@@ -1,0 +1,425 @@
+
+
+ body{
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 2000px;
+ }
+
+  /* !              silde 1 */
+
+.logo-1{
+   height: 100px;
+   width: 170px;
+
+}
+
+
+.image-1{
+   width: 100%;
+   height: 300px;
+   background-image: url(./hero3.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.lanyer{
+    width: 100%;
+   height: 300px;
+   background-image: radial-gradient(rgba(255, 255, 255, 0.089)  , black 60% );
+}
+
+
+.h2{
+   color: white;
+   font-size: 45px;
+   position: relative;
+  top: -60px;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*!                  silde 2 */
+.image-2 :hover{
+     transform: scale(1.08) translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+     z-index: 10;
+}
+
+.image-3 :hover{
+     transform: scale(1.08) translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+     z-index: 10;
+}
+
+
+/* !              silde 3 */
+
+
+.image-4{
+   background-image: url(./about.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+   position: relative;
+   top: 150px;
+ 
+}
+
+.lanyer-1{
+   background-image: linear-gradient(rgba(255, 255, 255, 0.171)  10%, black 100%);
+   width: 100%;
+   height: 500px;
+ 
+}
+ 
+
+
+
+
+.h4{
+   font-size: 16px;
+   color: rgba(255, 255, 255, 0.801);
+  position: relative;
+  top: 10px;
+   line-height: 1.9;
+
+}
+
+
+.pre{
+   color: rgba(255, 255, 255, 0.664);
+   font-size: 15px;
+  position: relative;
+  top: 20px;
+line-height: 1.9;
+}
+
+.social {
+  position: relative;
+  top: -650px;
+  gap: 40px;
+  border-radius: 50% important!;
+  
+}
+
+/* !     silde 4 */
+.h3{
+   color: rgba(255, 255, 255, 0.651);
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   font-weight: 600px;
+   font-size: 30px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+
+.image-8:hover{
+   filter: grayscale(0);
+    filter: grayscale(100%);
+    color: rgba(0, 0, 0, 0.075);
+  
+}
+
+  /* !     silde 5 */
+  .h6{
+     color: rgba(255, 255, 255, 0.651);
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   font-weight: 600px;
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+    
+   text-align: center;
+}
+
+
+.logo-3{
+   position: relative;
+
+   top: -50px;
+}
+/* !   silde 6 */
+
+
+.image-5{
+ 
+   background-image: url(./cta.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+      height: 250px;
+    
+}
+.lanyer-two{
+    width: 100%;
+   height: 400px;
+  background-image: linear-gradient( to left ,  rgba(0, 0, 0, 0.432)  , black 100%);
+    
+}
+.four h5{
+   font-size: 30px;
+   text-align: center;
+   color: white ;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: relative;
+   top: 100px;
+}
+
+.lanyer-two img {
+   position: relative;
+   top: 100px;
+   left: 100px;
+   display: flex;
+   justify-content: center;
+}
+
+.nav-four{
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+    gap: 30px;
+    list-style: none;
+
+
+   
+ }
+ .nav-four a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .nav-four a:hover{
+    color: #00bcd4;
+ }
+
+
+
+
+
+
+
+
+ @media (min-width : 700px) {
+   
+
+  .navbar{
+   
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+  }
+
+
+.image-1{
+   width: 100%;
+   height: 400px;
+   background-image: url(./hero3.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.lanyer{
+    width: 100%;
+   height: 400px;
+   background-image: radial-gradient(rgba(255, 255, 255, 0.089)  , black 60% );
+}
+
+
+
+.h2{
+   color: white;
+   font-size: 65px;
+   position: relative;
+  top: -60px;
+  text-align: center;
+
+}
+
+
+/* !       silde 2 */
+
+
+.image-2{
+  position: relative;
+  top: 100px;
+}
+
+.image-3{
+    position: relative;
+  top: 150px;
+}
+
+
+
+
+
+/* !    silde 3 */
+
+.social {
+ isplay: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -450px;
+  left: 100px;
+  gap: 40px;
+ 
+}
+
+
+
+
+
+
+/* !     silde 4 */
+.h3{
+   color: rgba(255, 255, 255, 0.651);
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   font-weight: 600px;
+   font-size: 30px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+  position: relative;
+  left: -500px;
+}
+
+
+
+
+
+
+/* !      silde 5 */
+
+.logo-3{
+   position: relative;
+   left: -500px;
+   top: -50px;
+}
+
+.h6{
+     color: rgba(255, 255, 255, 0.651);
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   font-weight: 600px;
+   font-size: 22px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   
+}
+
+.logo-4{
+   position: relative;
+  top: 50px;
+  left: -500px;
+ }
+
+
+
+
+
+ /* !   silde 6 */
+
+
+.image-5{
+ 
+   background-image: url(./cta.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   width: 100%;
+      height: 350px;
+    
+}
+
+.four h5{
+   font-size: 40px;
+   text-align: center;
+   color: white ;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: relative;
+   top: 100px;
+}
+.lanyer-two img {
+   position: relative;
+   top: 250px;
+   left: 600px;
+   display: flex;
+   justify-content: center;
+}
+
+.nav-four{
+   
+    position: relative;
+
+  top: 250px;
+    gap: 30px;
+    list-style: none;
+
+
+   
+ }
+ .nav-four a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .nav-four a:hover{
+    color: #00bcd4;
+ }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width : 900px) {
+   
+
+
+.image-1{
+   width: 100%;
+   height: 500px;
+   background-image: url(./hero3.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.lanyer{
+    width: 100%;
+   height: 500px;
+   background-image: radial-gradient(rgba(255, 255, 255, 0.089)  , black 60% );
+}
+
+
+
+
+  
+
+
+/* !    silde 4 */
+.h3{
+    color: rgba(255, 255, 255, 0.651);
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   font-weight: 600px;
+   font-size: 30px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+ 
+}
+ }
